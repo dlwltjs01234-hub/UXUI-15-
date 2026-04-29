@@ -1,0 +1,47 @@
+
+/* text */
+.contents_title_xxsmall { font-size: 14px; font-weight: 400; letter-spacing: -0.5px; color: #fff;}
+.contents_title_xsmall { font-size: 20px; font-weight: 700; letter-spacing: -1px; color: #fff;}
+.contents_title_small { font-size: 36px; font-weight: 700; letter-spacing: -1.5px; color: #fff;}
+.contents_title_medium_bold { font-size: 48px; font-weight: 700; letter-spacing: -2px; color: #fff;}
+.contents_title_medium { font-size: 48px; font-weight: 400; letter-spacing: -2px;color: #fff; }
+.contents_title_large { font-size: 64px; font-weight: 400; letter-spacing: -2.5px; color: #fff; } 
+.contents_title_xlarge { font-size: 96px; font-weight: 700; letter-spacing: -3px;color: #fff;  }
+
+
+.contents_article_xxsmall { font-family: "Inria Sans", sans-serif; font-size: 16px; font-weight: 400; letter-spacing: -0.5px; color: #fff; }
+.contents_article_xsmall { font-family: "Inria Sans", sans-serif; font-size: 20px; font-weight: 400; letter-spacing: -1px; color: #fff;}
+.contents_article_xsmall_bold  { font-family: "Inria Sans", sans-serif; font-size: 20px; font-weight: 700; letter-spacing: -1px;color: #fff; }
+.contents_article_xsmall_regular { font-family: "Inria Sans", sans-serif; font-size: 22px; font-weight: 400; letter-spacing: -1px;color: #fff; }
+.contents_article_small { font-family: "Inria Sans", sans-serif; font-size: 24px; font-weight: 700; letter-spacing: -1px; color: #fff;}
+.contents_article_medium { font-family: "Inria Sans", sans-serif; font-size: 32px; font-weight: 400; letter-spacing: -1.5px; color: #fff;}
+.contents_article_bold { font-family: "Inria Sans", sans-serif; font-size: 34px; font-weight: 400; letter-spacing: -3.5px; color: #fff;}
+.contents_article_large { font-family: "Inria Sans", sans-serif; font-size: 36px; font-weight: 400; letter-spacing: -3.5px; color: #fff;}
+
+
+
+/* 계속 쓸거 */
+
+.line { width: 1834px; height: 1px; background: #ffff; }
+
+
+
+/* animation */
+
+/* 지앤비 */
+.anim {
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+/* 제목용 - 마스크 슬라이드 */
+
+.anim-slide {
+  opacity: 0;
+  filter: blur(20px);
+  transform: translateY(20px);  /* 살짝 아래서 올라오는 */
+}
+
+
+
+

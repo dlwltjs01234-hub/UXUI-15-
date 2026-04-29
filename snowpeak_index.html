@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    <!-- link -->
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/gradiant.css">
+
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+        
+        <!-- icon -->
+            <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!-- js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+        
+        <!-- gsap -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+
+
+    </head>
+
+
+
+    <body>
+        <div class="work-section">
+            <div class="work-left">
+                <img class="work-left-img" src="images/snow_peak_main_visual.png"/> 
+                
+                <div class="work-left-text">  <!-- 이걸로 감싸기 -->
+                <a href="피그마링크" target="_blank">
+                    <p class="contents_title_small">SNOW PEAK : RE DESIGN</p>
+                </a>
+                <p class="contents_article_medium">Redesigned the Snow Peak website with a focus on navigation, information hierarchy, and product discovery.</p>
+                </div>
+            </div>
+
+            <div class="work-right">
+                <div class="work-img"><img src="images/card_back_img_01.png"/></div>
+                <div class="work-img"><img src="..."/></div>
+                <div class="work-img"><img src="..."/></div>
+            </div>
+        </div>
+            
+
+
+
+
+
+
+          <div class="invert-cursor" id="custom-cursor"></div>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+            <script src="js/gradiant.js"></script>
+            <script>
+                document.querySelectorAll('.card').forEach(card => {
+                    card.addEventListener('click', () => {
+                    card.classList.toggle('flipped');
+                    });
+                });
+            </script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+            <script src="js/list.js"></script>
+    </body>
+</html>
